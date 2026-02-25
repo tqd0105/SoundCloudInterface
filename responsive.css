@@ -249,10 +249,11 @@ i{
 .content__left-action{
   display: none !important;
 }
+
 }
 
 /* Tablet or Medium Size */
-@media (min-width: 769px) and (max-width: 1440px) {
+@media (min-width: 768px) and (max-width: 1440px) {
   .hidden_inTablet{
     display: none;
   }
@@ -260,7 +261,7 @@ i{
     width: 100%;
   }
   .m-9{
-    max-width: 62% !important;
+    max-width: 60% !important;
   }
   .content__left-playlist-artist-phone{
     display: none;
@@ -376,25 +377,27 @@ i{
   border-radius: 5px;
 }
 .content__left-play-icon{
-  font-size: 20px;
-  top: 30px;
-  left: 30px;
+  font-size: 30px;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
 }
 .content__left-play::before{
-  width: 40px;
-  height: 40px;
-  top: 20px;
-  left: 21px;
+  width: 50px;
+  height: 50px;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
 }
 
 .content__left-action-heart{
   font-size: 8px;
-  right: 38px;
+  right: 45px;
 }
 
 .content__left-action-ellipsis{
   font-size: 8px;
-  right: 25px;
+  right: 32px;
 }
 }
 
