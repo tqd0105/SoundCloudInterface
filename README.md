@@ -1,11 +1,5 @@
 # SOUNDCLOUD REMAKE
 - This project was practiced to review HTML, CSS after a long time of studying.
-- It was practiced for two sequential weeks.
-  
-__Technology used in project__
-1. Responsive
-2. Grid System
-3. ...
 
 ### DEMO WEBSITE
 
